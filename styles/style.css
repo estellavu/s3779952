@@ -1,0 +1,109 @@
+/*
+filename: style.css
+author: Estella Vu
+created: 25/03/2021
+last modified: 28/03/2021
+description: index.html, personalinfo.html, interest.html, idealjob.html, personalprofile.html, projectidea.html
+*/
+
+* {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/* Header */
+/* header background-image source: http://thepatternlibrary.com/#design-tools */
+header {
+    background-image: url(images/background.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    width: 100%;
+    height: 158px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 72px;
+    letter-spacing: 4px;}
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style: none;
+    float: left;
+    font-size: 93%;
+}
+nav ul li a{
+    background-color: rgb(106, 98, 182);
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    padding: .625em 3.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-right: 1px solid #ffffff;
+}
+nav a:hover {
+    background-color: rgb(168, 177, 255);
+    color: black;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* Footer */
+footer{
+    font-size: small;
+    text-align: center;
+    color: white;
+    background-color: rgb(168, 177, 255);
+    width: 100%;
+    height: 90px;
+    position: relative;
+    clear: both;
+}
+
+.headings {
+    color: #4174d4
+}
+.subheadings {
+    color: pink;
+}
+.pagetitle {
+    text-align: center;
+    font-size: 60px;
+    color: darkblue;
+}
+.footnote {
+    font-size: x-small;
+    text-decoration: none;
+}
+.footnote a {
+    text-decoration: none;
+}
+#section1, #section2, #section3 {
+    float: left;
+    text-align: justify;
+    margin: 1em 1em 1em 1em;
+}
+#image1 {
+    max-width: 100%;
+}
+aside {
+    border: 4px inset blue;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    float: right;
+}
